@@ -124,6 +124,7 @@ pcbServices = [
             pcbnew.F_Mask:    '[boardProjectName].GTS',
             pcbnew.B_Mask:    '[boardProjectName].GBS',
             pcbnew.Edge_Cuts: '[boardProjectName].GKO',
+            pcbnew.Cmts_User: '[boardProjectName].GDL',
             pcbnew.In1_Cu:    '[boardProjectName].GL2',
             pcbnew.In2_Cu:    '[boardProjectName].GL3',
         },
